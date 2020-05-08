@@ -12,7 +12,7 @@ The folder `data` contains all the files that you need to run your example, and 
 
 You will find the [hierarchy inside this repository](https://github.com/ttben/explanations-hackathon-2020-concordia/tree/master/language). You use this repository as a base ;).
 
-
+![](https://user-images.githubusercontent.com/6167712/81434417-64ad6b80-9166-11ea-8963-62fa18ee4c85.png)
 
 # Write a dockerfile
 The Dockerfile will copy, add, download, everything that needs to be done to have a properly set-up environment to run a program in your targeted language.

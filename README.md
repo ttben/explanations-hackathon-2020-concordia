@@ -6,9 +6,9 @@ The idea is to wrap everything in a dockerfile and have two scripts: one that bu
 
 # Summary
 Here is the overall point-of-view of what you will end up with :)
-A folder named as the targeted language (in my case `elixir` and another folder for `erlang`).
-The language folder contains two files (`Dockerfile` and `build-and-run.sh`) and a folder (`data`).
-The folder `data` contains all the files that you need to run your example, and `start.sh` specify *how* to start your example. Some languages can have fancy way to run one of their program, and you want to hide this, encapsulate it.
+- A folder named as the targeted language (in my case `elixir` and another folder for `erlang`).
+- The language folder contains two files (`Dockerfile` and `build-and-run.sh`) and a folder (`data`).
+- The folder `data` contains all the files that you need to run your example (script files, resources, whatever), and `start.sh` specify *how* to start your example. Some languages can have fancy way to run one of their program, and you want to hide this, encapsulate it.
 
 You will find the [hierarchy inside this repository](https://github.com/ttben/explanations-hackathon-2020-concordia/tree/master/language). You use this repository as a base ;).
 

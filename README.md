@@ -1,3 +1,5 @@
+The goal is to wrap your contribution into a Docker image in order to quickly and easily run your work, without having to set-up the environment. Imagine if you want to try contributions from someone and need to install 6789098765 modules/binaries/packages, modify your `path` etc. Nope. Nope. Nope.
+The idea is to wrap everything in a dockerfile and have two scripts: one that builds the docker image from your dockerfile, the other that speciies what needs to be run when one runs your docker image.
 
 # Summary
 Here is the overall point-of-view of what you will end up with :)
